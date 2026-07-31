@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mission: Meteoroid</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+
+    <header>
+        <h1>Mission: Meteoroid</h1>
+        <nav aria-label="Main Navigation">
+    <ul class="main-nav">
+      
+      <!-- Main button container with dropdown menu -->
+      <li class="dropdown">
+        <a href="MO.html" class="nav-btn">Mission Overview ▾</a>
+        <!-- Sub-navigation links container -->
+        <ul class="sub-nav">
+          <li><a href="MO.html#MG">Mission Goals</a></li>
+          <li><a href="MO.html#MS">Mission Status</a></li>
+        </ul>
+      </li>
+      <li class="dropdown">
+        <a href="PI.html" class="nav-btn">Planet Information ▾</a>
+        <!-- Sub-navigation links container -->
+        <ul class="sub-nav">
+          <li><a href="PI.html#V">Vegitation</a></li>
+          <li><a href="PI.html#C">Creatures</a></li>
+          <li><a href="PI.html#NLF">Non-living Findings</a></li>
+        </ul>
+      </li>
+      <li class="dropdown">
+        <a href="CI.html" class="nav-btn">Company Information ▾</a>
+        <!-- Sub-navigation links container -->
+        <ul class="sub-nav">
+          <li><a href="CI.html#AA">Agent Account</a></li>
+        </ul>
+      </li>
+    </ul>
+        <p>Mission Checklist can be found at the bottom of every page. Please feel free to use this to keep track of what items are left to complete.</p>
+    </header>
+     <section class="card">
+    <h2>Company Information</h2>
+        <p>Astra Kronos Technologies (AKT) is a pioneering company dedicated to exploring distant planets and advancing humanity's understanding of the universe. Using cutting-edge spacecraft, robotic technology, and scientific research, AKT leads missions to study alien ecosystems, map uncharted worlds, and collect valuable environmental data. 
+            By combining innovation with a passion for discovery, AKT works to uncover the secrets of the cosmos while inspiring future generations of explorers and scientists.</p>
+            <p>Taking 'AKT'-ion in Space Exploration</p>
+    </section>
+
+    <section class="card">
+<h3 id="AA">Agent Account</h3>
+    
+
+
+<div class="menu-container">
+    <h2>Agent Personalization Menu</h2>
+    
+    <div class="input-group">
+        <label for="agentName">Enter Your Name:</label>
+        <input type="text" id="agentName" placeholder="John Doe">
+    </div>
+
+    <div class="input-group">
+        <label for="agentRole">Select Role/Department:</label>
+        <select id="agentRole">
+            <option value="Vegetation Investigation">Specialization in Vegetation</option>
+            <option value="Creatures Investigation">Specialization in Creatures</option>
+            <option value="Non-Living Factor Investigation">Specialization in Non-living Factors</option>
+        </select>
+    </div>
+
+    <button onclick="applyPersonalization()">Apply Settings</button>
+
+    <div class="personalized-header" id="displayArea" style="display: none;">
+        <h3>Welcome, <span id="outName"></span>!</h3>
+        <p>We appreciate your work in: <span id="outRole"></span></p>
+    </div>
+</div>
+
+</section>
+
+<aside>
+    <h3>Mission: Meteoroid Checklist</h3>
+
+<div class="check">
+    <input type="checkbox" id="task1">
+    <label for="task3">Input Agent Name (Company Information)</label>
+</div>
+
+<div class="check">
+    <input type="checkbox" id="task2">
+    <label for="task3">Select Agent Specialization (Company Information)</label>
+</div>
+
+<div class="check">
+    <input type="checkbox" id="task3">
+    <label for="task1">Read Mission Overview (Mission Overview)</label>
+</div>
+
+<div class="check">
+    <input type="checkbox" id="task4">
+    <label for="task2">Research Plant Information (Planet Information)</label>
+</div>
+
+<div class="check">
+<input type="checkbox" id="task5">
+    <label for="task2">Research Creature Information (Planet Information)</label>
+</div>
+
+<div class="check">
+<input type="checkbox" id="task6">
+    <label for="task2">Research Non-Living Findings Information (Planet Information)</label>
+</div>
+
+<div class="check">
+    <input type="checkbox" id="task7">
+    <label for="task3">Complete Mission Task 1 (Mission Overview)</label>
+</div>
+
+<div class="check">
+    <input type="checkbox" id="task8">
+    <label for="task3">Complete Mission Task 2 (Mission Overview)</label>
+</div>
+
+
+<div class="check">
+    <input type="checkbox" id="task9">
+    <label for="task3">Complete Mission Task 3 (Mission Overview)</label>
+</div>
+
+<div class="check">
+    <input type="checkbox" id="task10">
+    <label for="task3">Complete Mission Task 4 (Mission Overview)</label>
+</div>
+
+</aside>
+
+    <footer>
+        <p>Mission: Meteoroid</p>
+    </footer>
+
+</body>
+</html>
