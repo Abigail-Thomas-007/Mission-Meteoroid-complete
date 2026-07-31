@@ -1,0 +1,222 @@
+html {background-color: black;
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        color: white;
+    
+    }
+        /* Container for the dropdown menu */
+
+.dropdown {
+            position: relative;
+            display: inline-block;
+        }
+
+        /* Styling for the main triggering navigation button */
+        .dropbtn {
+            background-color: #007BFF;
+            color: white;
+            padding: 12px 20px;
+            font-size: 16px;
+            border: none;
+            cursor: pointer;
+            border-radius: 4px;
+        }
+
+        /* Darken the button when hovered */
+        .dropbtn:hover {
+            background-color: #0056b3;
+        }
+
+        /* Container for the hidden options/links */
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #ffffff;
+            min-width: 160px;
+            box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+            z-index: 1;
+            border-radius: 4px;
+            margin-top: 2px;
+        }
+
+        /* Individual links inside the dropdown list */
+        .dropdown-content a {
+            color: #333333;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+            font-family: sans-serif;
+            font-size: 14px;
+        }
+
+        /* background highlight when hovering over options */
+        .dropdown-content a:hover {
+            background-color: #f1f1f1;
+        }
+
+        /* Unhide the option container when hovering the parent dropdown div */
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+
+
+            nav ul {
+      list-style-type: none;
+      padding: 0;
+      margin: 0;
+      background-color: #333;
+    }
+
+    /* Layout the main navigation button horizontally */
+    .main-nav > li {
+      display: inline-block;
+      position: relative; /* Anchor for the dropdown menu */
+    }
+
+    /* Style the clickable main button link */
+    .nav-btn {
+      display: block;
+      color: white;
+      padding: 14px 20px;
+      text-decoration: none;
+      font-family: sans-serif;
+      font-weight: bold;
+    }
+
+    /* Change button color when hovered */
+    .nav-btn:hover {
+      background-color: #111;
+    }
+
+    /* Hide the sub-navigation links by default */
+    .sub-nav {
+      display: none;
+      position: absolute; /* Positions sub-menu beneath the button */
+      background-color: #f9f9f9;
+      min-width: 160px;
+      box-shadow: 0px 8px 16px rgba(0,0,0,0.2);
+    }
+
+    /* Style individual sub-navigation links */
+    .sub-nav a {
+      color: black;
+      padding: 12px 16px;
+      text-decoration: none;
+      display: block;
+      font-family: sans-serif;
+    }
+
+    /* Change sub-link color on hover */
+    .sub-nav a:hover {
+      background-color: #f1f1f1;
+    }
+
+    /* Magic logic: Show sub-nav when hovering over the parent list item */
+    .dropdown:hover .sub-nav {
+      display: block;
+    }
+
+
+
+    .progress-container {
+    max-width: 400px;
+    margin: 20px auto;
+    font-family: Arial, sans-serif;
+}
+
+#progressBar {
+    width: 100%;
+    height: 20px;
+    margin-bottom: 20px;
+}
+
+.checkpoint-list {
+    list-style: none;
+    padding: 0;
+}
+
+.checkpoint-list li {
+    padding: 10px;
+    margin-bottom: 5px;
+    background-color: #403d4b;
+    cursor: pointer;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    transition: background-color 0.3s;
+}
+
+.checkpoint-list li:hover {
+    background-color: #1a07ec;
+}
+
+
+
+
+
+
+.menu-container { background: #2a0489; max-width: 400px; padding: 20px; border-radius: 8px; box-shadow: 0 2px 10px rgba(0,0,0,0.1); margin: auto; }
+        .input-group { margin-bottom: 15px; }
+        label { display: block; margin-bottom: 5px; font-weight: bold; }
+        input[type="text"], select { width: 100%; padding: 8px; box-sizing: border-box; border: 1px solid #ccc; border-radius: 4px; }
+        button { background: #0056b3; color: white; border: none; padding: 10px 15px; border-radius: 4px; cursor: pointer; }
+        button:hover { background: #272843; }
+        .personalized-header { margin-top: 20px; padding: 15px; background: #0949a3; border-left: 4px solid #0056b3; border-radius: 4px; }
+
+
+
+
+
+.card {
+      background-color: #110f4b;
+      border-radius: 8px;
+      max-width: 600px;
+      box-shadow: 0 4px 8px rgba(26, 13, 40, 0.2);
+      padding: 20px;
+    }
+
+
+
+aside {
+    background: #510456;
+    color: white;
+    padding: 20px;
+    overflow-y: auto;
+
+}
+
+
+
+
+
+
+
+
+   .completed {
+      text-decoration: line-through;
+      color: gray;
+    }
+    .task-item {
+      cursor: pointer;
+      margin: 5px 0;
+    }
+
+
+
+
+     html {
+      scroll-behavior: smooth; /* Smooth scrolling */
+    }
+
+
+
+section {
+     margin-top:300px
+    
+    }
+section {margin-bottom: 300px; /* Space below each section */}
+
+footer {
+  padding-top: 200px;
+  text-align: center;
+}
