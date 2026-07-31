@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mission: Meteoroid</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+
+    <header>
+        <h1>Mission: Meteoroid</h1>
+<nav aria-label="Main Navigation">
+    <ul class="main-nav">
+      
+      <!-- Main button container with dropdown menu -->
+      <li class="dropdown">
+        <a href="MO.html" class="nav-btn">Mission Overview ▾</a>
+        <!-- Sub-navigation links container -->
+        <ul class="sub-nav">
+          <li><a href="MO.html#MG">Mission Goals</a></li>
+          <li><a href="MO.html#MS">Mission Status</a></li>
+        </ul>
+      </li>
+      <li class="dropdown">
+        <a href="PI.html" class="nav-btn">Planet Information ▾</a>
+        <!-- Sub-navigation links container -->
+        <ul class="sub-nav">
+          <li><a href="PI.html#V">Vegitation</a></li>
+          <li><a href="PI.html#C">Creatures</a></li>
+          <li><a href="PI.html#NLF">Non-living Findings</a></li>
+        </ul>
+      </li>
+      <li class="dropdown">
+        <a href="CI.html" class="nav-btn">Company Information ▾</a>
+        <!-- Sub-navigation links container -->
+        <ul class="sub-nav">
+          <li><a href="CI.html#AA">Agent Account</a></li>
+        </ul>
+      </li>
+    </ul>
+        <p>Mission Checklist can be found at the bottom of every page. Please feel free to use this to keep track of what items are left to complete.</p>
+  </header>
+       <section class="card">
+    <h2>Mission Overview</h2>
+            <p>Your mission is to travel to Planet Tektara. 
+            Explore its unique landscapes, study the native plants and animals, and gather information about the planet's environment. 
+            As you investigate this alien world, you'll uncover new discoveries that help scientists better understand the planet and the fascinating life that calls it home.</p>
+    
+  
+    </section>
+<section class="card">
+    <h3 id="MG">Mission Goals</h3>
+        <p> Please complete the following tasks:</p>
+
+
+    <div id="task-container">
+    <div class="task-item" onclick="toggleTask(this)">Task 1: Collect Plant Sample</div>
+    <div class="task-item" onclick="toggleTask(this)">Task 2: Take Photo of Creature</div>
+    <div class="task-item" onclick="toggleTask(this)">Task 3: Upload Data</div>
+    <div class="task-item" onclick="toggleTask(this)">Task 4: Upload Post-Mission Report</div>
+  </div>
+
+</section>
+   <section class="card"> 
+    <h3 id="MS">Mission Status</h3>
+<div id="progress-text">Progress: 0%</div>
+  <div class="progress-container">
+    <div id="progress-bar" class="progress-bar"></div>
+  </div>
+    
+    
+</div>
+    
+</section>
+
+
+
+
+<aside>
+    <h3>Mission: Meteoroid Checklist</h3>
+
+<div class="check">
+    <input type="checkbox" id="task1">
+    <label for="task3">Input Agent Name (Company Information)</label>
+</div>
+
+<div class="check">
+    <input type="checkbox" id="task2">
+    <label for="task3">Select Agent Specialization (Company Information)</label>
+</div>
+
+<div class="check">
+    <input type="checkbox" id="task3">
+    <label for="task1">Read Mission Overview (Mission Overview)</label>
+</div>
+
+<div class="check">
+    <input type="checkbox" id="task4">
+    <label for="task2">Research Plant Information (Planet Information)</label>
+</div>
+
+<div class="check">
+<input type="checkbox" id="task5">
+    <label for="task2">Research Creature Information (Planet Information)</label>
+</div>
+
+<div class="check">
+<input type="checkbox" id="task6">
+    <label for="task2">Research Non-Living Findings Information (Planet Information)</label>
+</div>
+
+<div class="check">
+    <input type="checkbox" id="task7">
+    <label for="task3">Complete Mission Task 1 (Mission Overview)</label>
+</div>
+
+<div class="check">
+    <input type="checkbox" id="task8">
+    <label for="task3">Complete Mission Task 2 (Mission Overview)</label>
+</div>
+
+
+<div class="check">
+    <input type="checkbox" id="task9">
+    <label for="task3">Complete Mission Task 3 (Mission Overview)</label>
+</div>
+
+<div class="check">
+    <input type="checkbox" id="task10">
+    <label for="task3">Complete Mission Task 4 (Mission Overview)</label>
+</div>
+
+</aside>
+
+
+
+    <footer>
+        <p>Mission: Meteoroid</p>
+    </footer>
+
+</body>
+</html>
